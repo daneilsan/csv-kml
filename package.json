@@ -1,0 +1,28 @@
+{
+  "name": "csv-kml",
+  "version": "1.0.0",
+  "description": "Converts csv files containing decimal latitude, longitude, altitudeand time into a kml file ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daneilsan/csv-kml.git"
+  },
+  "keywords": [
+    "csv",
+    "kml"
+  ],
+  "author": "Daniel García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daneilsan/csv-kml/issues"
+  },
+  "homepage": "https://github.com/daneilsan/csv-kml#readme",
+  "dependencies": {
+    "fast-csv": "^0.6.0",
+    "fs": "0.0.2",
+    "xmlbuilder": "^2.6.4"
+  }
+}
